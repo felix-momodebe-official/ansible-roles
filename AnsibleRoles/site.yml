@@ -1,12 +1,12 @@
 ---
 # This playbook deploys a simple standalone Tomcat 7 server.
 
-- hosts: tag_Name_testing
+- hosts: _Name_redhat
   become: yes
   roles:
    - common
    - tomcat
-- hosts: all
+- hosts: _Name_redhat
   become: yes
   roles:
    - common
